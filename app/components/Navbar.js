@@ -49,11 +49,11 @@ const NavItems = ({ isMenuOpen, setIsMenuOpen, pathname }) => {
             <Link
               key={item.name}
               href={item.href}
-              className={`text-white text-2xl px-6 py-3 transition-all duration-300 ease-in-out 
+              className={`text-white text-2xl px-6 py-3  
               ${
                 pathname === item.href
-                  ? 'bg-dark-8 rounded outline-2 outline-dark-20'
-                  : 'hover:bg-dark-8 hover:rounded hover:outline-2 hover:outline-dark-20'
+                  ? 'bg-dark-8 rounded outline outline-2 outline-dark-20'
+                  : 'hover:bg-dark-8 hover:rounded hover:outline hover:outline-2 hover:outline-dark-20'
               }`}
             >
               {item.name}
