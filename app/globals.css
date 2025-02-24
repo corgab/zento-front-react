@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-kumbh;
+    @apply font-inter;
   }
 }
 

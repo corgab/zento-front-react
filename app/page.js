@@ -1,13 +1,13 @@
 'use client';
 import ThemeSwitcher from './components/ThemeSwitcher';
+import Navbar from './components/Navbar';
 export default function Home() {
   return (
     <>
-      <div className=''>
-        <ThemeSwitcher />
-        <main className=''></main>
-        <footer className=''></footer>
-      </div>
+      <ThemeSwitcher />
+      <Navbar />
+      <main className=''></main>
+      <footer className=''></footer>
     </>
   );
 }

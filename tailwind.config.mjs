@@ -13,6 +13,8 @@ export default {
       inter: ['var(--font-inter)', 'serif'],
     },
     colors: {
+      white: '#FFF',
+      black: '#000',
       yellow: '#FFD11A',
       dark: {
         8: '#141414',
@@ -24,7 +26,7 @@ export default {
         35: '#595959',
         40: '#666666',
       },
-      gray: {
+      grey: {
         50: '#7E7E81',
         60: '#98989A',
         70: '#B3B3B3',
