@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang='it'>
       <body
         suppressHydrationWarning
-        className={`${kumbhSans.variable} ${inter.variable} antialiased `}
+        className={`${kumbhSans.variable} ${inter.variable} antialiased dark:bg-dark-8`}
       >
         {children}
       </body>

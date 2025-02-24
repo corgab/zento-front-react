@@ -42,7 +42,11 @@ export default function ThemeSwitcher() {
       onClick={toggleTheme}
       className='p-2 rounded-full '
     >
-      {theme === 'light' ? <h1>Light</h1> : <h1>Dark</h1>}
+      {theme === 'light' ? (
+        <h1>Light</h1>
+      ) : (
+        <h1 className='dark:text-white'>Dark</h1>
+      )}
     </button>
   );
 }

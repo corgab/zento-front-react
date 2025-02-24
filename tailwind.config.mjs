@@ -37,6 +37,10 @@ export default {
         99: '#FCFCFD',
       },
     },
+    letterSpacing: {
+      3: '0.03em',
+    },
   },
+
   plugins: [],
 };
